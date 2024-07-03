@@ -1,0 +1,63 @@
+fieldset{
+    border-color: rgb(147, 147, 146);
+    margin: auto;
+    height: 8cm;
+    text-align: left;
+    width:1px;
+    border-style: none;
+    border-radius: 10%;
+    background-color: antiquewhite;
+
+}
+h1{
+    color: rgb(238, 14, 107);
+}
+a{
+    text-decoration: none;
+    color:blue;
+
+}
+h1{
+    text-align: center;
+} 
+.bor{
+    border-radius:0.17cm;
+    width: 8cm;
+    font-size: 20px;
+    
+}
+#nigga{
+    margin-top: 0.4cm;
+    margin-left: 0.1cm;
+}
+.kkk{
+    height: 6%;
+}
+.lll{
+    height:2%;
+}
+#su{
+    background-color: rgba(50, 176, 254, 0.315);
+    border-radius: 0.19cm;
+    border-width: 0.059cm;
+    padding-top: 0.3cm;
+    padding-bottom: 0.3cm;
+    margin-left: 129px;
+}
+
+@media (max-width:400px) and (min-width:300px){
+    .bor{
+        width:auto;
+    }
+    #su{
+        margin-left: 115px;
+    }
+}
+@media (max-width:300px){
+    .bor{
+        width:200px;
+    }
+    h1{
+        color: rgb(74, 101, 91);
+    }
+}
